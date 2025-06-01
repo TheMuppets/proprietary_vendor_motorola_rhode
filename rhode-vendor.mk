@@ -3287,7 +3287,11 @@ PRODUCT_PACKAGES += \
     liblmutils-ns \
     libmctfengine_stub \
     libmmcamera_cac3 \
+    libmmcamera_faceproc \
+    libmmcamera_faceproc2 \
+    libmmcamera_lscv35 \
     libmmcamera_mfnr \
+    libmmcamera_mfnr_t4 \
     libmot_afd \
     libmot_lux_standardization \
     libmpbase \
