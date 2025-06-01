@@ -3147,6 +3147,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rhode/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
     vendor/motorola/rhode/proprietary/vendor/etc/thermal-engine-rhode.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-rhode.conf \
     vendor/motorola/rhode/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
+    vendor/motorola/rhode/proprietary/vendor/etc/vhw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vhw.xml \
     vendor/motorola/rhode/proprietary/vendor/firmware/FT8006U_Pramboot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FT8006U_Pramboot.bin \
     vendor/motorola/rhode/proprietary/vendor/firmware/a630_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_sqe.fw \
     vendor/motorola/rhode/proprietary/vendor/firmware/aw882xx_afe_params.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_afe_params.bin \
@@ -3306,6 +3307,7 @@ PRODUCT_PACKAGES += \
     vendor.egistec.hardware.fingerprint@4.0 \
     vendor.focaltech.fingerprint@1.0 \
     capsense_reset \
+    cnss-daemon \
     android.hardware.biometrics.fingerprint@2.1-focalservice \
     android.hardware.biometrics.fingerprint@2.1-service-ets \
     thermal-engine
