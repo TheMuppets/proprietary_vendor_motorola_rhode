@@ -3282,7 +3282,6 @@ PRODUCT_PACKAGES += \
     libets_teeclient_v2 \
     libipebpsstriping \
     libjpege \
-    liblmutils-ns \
     libmctfengine_stub \
     libmmcamera_cac3 \
     libmmcamera_faceproc \
