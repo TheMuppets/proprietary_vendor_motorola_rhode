@@ -3260,6 +3260,7 @@ PRODUCT_PACKAGES += \
     fingerprint.focaltech.default \
     libfactorylib \
     libRbsFlow \
+    libaidenoiser \
     libarcsoft_distortion_correction \
     libarcsoft_low_light_shot \
     libarcsoft_portrait_distortion_correction \
@@ -3296,6 +3297,8 @@ PRODUCT_PACKAGES += \
     libopencv \
     libopestriping \
     libremosaic_wrapper \
+    libremosaiclib \
+    librmsclib1 \
     libswregistrationalgo \
     libtfestriping \
     libvidhance \
